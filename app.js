@@ -4,6 +4,8 @@ const todoForm = document.getElementById("todo-form");
 todoForm.addEventListener("submit",submitForm);
 function submitForm(e){
     console.log("Submit Event");
+
+    e.preventDefault();
 }
 // filterInput.addEventListener("focus",function(e){
 //     console.log(e);
