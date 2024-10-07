@@ -16,7 +16,12 @@ const title = document.querySelector("#tasks-title");
 //     console.log(e.type);
 // }
 
-title.addEventListener("mouseout",run);
+// title.addEventListener("mouseout",run);
+// function run(e){
+//     console.log(e.type);
+// }
+
+cardBody.addEventListener("mouseover",run);
 function run(e){
-    console.log(e.type);
-}
+         console.log(e.type);
+    }
