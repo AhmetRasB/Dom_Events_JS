@@ -6,7 +6,12 @@ const title = document.querySelector("#tasks-title");
 //     console.log(e.type);
 // }
 
-title.addEventListener("mouseup",run);
+// title.addEventListener("mouseup",run);
+// function run(e){
+//     console.log(e.type);
+// }
+
+title.addEventListener("mouseover",run);
 function run(e){
     console.log(e.type);
 }
