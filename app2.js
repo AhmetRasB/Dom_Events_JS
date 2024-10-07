@@ -22,5 +22,6 @@ const todoInput = document.querySelector("#todo");
 
 todoInput.addEventListener("keyup",changeText);
 function changeText(e){
-    console.log(e.key);
+    header.textContent = e.target.value;
+    console.log(e.target.value);
 }
