@@ -16,4 +16,5 @@ filter.addEventListener("copy",run);
 filter.addEventListener("cut",run);
 filter.addEventListener("copy",run);
 
+filter.addEventListener("select",run);
 
