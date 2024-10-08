@@ -12,7 +12,8 @@ function run(e){
 
 filter.addEventListener("paste",run);
 filter.addEventListener("copy",run);
-function run(e){
-    console.log(e.type);
-}
+
+filter.addEventListener("cut",run);
+filter.addEventListener("copy",run);
+
 
