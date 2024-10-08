@@ -1,2 +1,11 @@
 const filter = document.getElementById("filter");
-console.log(filter);
+// document.addEventListener("DOMContentLoaded",load);
+// function load(e){
+//     console.log("Sayfa Yüklendi");
+// }
+
+filter.addEventListener("focus",run);
+filter.addEventListener("blur",run);
+function run(e){
+    console.log(e.type);
+}
