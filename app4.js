@@ -9,3 +9,10 @@ filter.addEventListener("blur",run);
 function run(e){
     console.log(e.type);
 }
+
+filter.addEventListener("paste",run);
+filter.addEventListener("copy",run);
+function run(e){
+    console.log(e.type);
+}
+
