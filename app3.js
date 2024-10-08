@@ -21,7 +21,7 @@ const title = document.querySelector("#tasks-title");
 //     console.log(e.type);
 // }
 
-cardBody.addEventListener("mouseover",run);
-function run(e){
-         console.log(e.type);
-    }
+// cardBody.addEventListener("mouseover",run);
+// function run(e){
+//          console.log(e.type);
+//     }
